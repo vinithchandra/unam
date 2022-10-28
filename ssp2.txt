@@ -1,0 +1,32 @@
+import random
+class valuetoosmall(Exception):
+    def display(self):
+        print("input value is small")
+
+
+
+class valuetoolarge(Exception):
+    def display(self):
+       print("input value is lager")
+
+
+while True:
+    try:
+
+         user =int(input("enter the number"))
+         ran=random.randint(10,100)
+         print(ran)
+         if user==ran:
+          break
+         if user< ran :
+           raise valuetoosmall
+         if user >ran:
+            raise valuetoolarge
+
+    except valuetoosmall as s:
+      s.display()
+
+    except valuetoolarge as l:
+       l.display()
+
+

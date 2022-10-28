@@ -1,0 +1,12 @@
+try:
+    f23=open("hello.txt","w")
+    a=int(input("enter the value of a"))
+    b=int(input("enter the value of b"))
+    c=a/b
+    z=str(c)
+    f23.write(z)
+except ZeroDivisionError:
+    print("division by zero is not allowed")
+    print ("other number")
+finally:
+    f23.close

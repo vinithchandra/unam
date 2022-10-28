@@ -1,0 +1,24 @@
+class rad:
+    def _init_(self, root):
+        self.f = frame(root,height=500,width=200,bg="green")
+
+        self.r1 = Radiobutton(self.f, text="10th", variables=self.v1,value=1)
+        self.r2= Radiobutton(self.f, text="diploma", variables=self.v1, value=2)
+        self.r3 = Radiobutton(self.f, text="12th", variables=self.v1, value=3)
+        self.r4 = Radiobutton(self.f, text="b.tech", variables=self.v1, value=4)
+        self.r1.place(x=1,y=4)
+        self.r2.place(x=2,y=3)
+        self.r3.place(x=1,y=3)
+        self.r4.place(x=1,y=2)
+        self.r5.place(x=2,y=4)
+
+def display(self):
+    if s1 == 1:
+
+    if s2 == 2:
+
+    if s3 == 3:
+
+    if s4 == 4:
+        
+    l = label()
