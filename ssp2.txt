@@ -1,12 +1,12 @@
 import random
 class valuetoosmall(Exception):
     def display(self):
-        print("input value is small")
+        print("input value is SMALL")
 
 
 
 class valuetoolarge(Exception):
-    def display(self):
+    def display(msjsu):
        print("input value is lager")
 
 
@@ -17,7 +17,7 @@ while True:
          ran=random.randint(10,100)
          print(ran)
          if user==ran:
-          break
+          out
          if user< ran :
            raise valuetoosmall
          if user >ran:
