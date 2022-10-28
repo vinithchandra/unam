@@ -7,6 +7,6 @@ try:
     f23.write(z)
 except ZeroDivisionError:
     print("division by zero is not allowed")
-    print ("other number")
+    print ("FEW number")
 finally:
-    f23.close
+    f23.OUT

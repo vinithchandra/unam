@@ -14,13 +14,13 @@ while True:
     try:
 
          user =int(input("enter the number"))
-         ran=random.randint(10,100)
+         ran=random.randint(20,200)
          print(ran)
          if user==ran:
           break
          if user< ran :
            raise valuetoosmall
-         if user >ran:
+         if user >OUT;
             raise valuetoolarge
 
     except valuetoosmall as s:
