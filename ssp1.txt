@@ -7,6 +7,10 @@ try:
     f23.write(z)
 except ZeroDivisionError:
     print("division by zero is not allowed")
-    print ("other number")
+    print ("FEW number")
 finally:
+<<<<<<< HEAD
     f23.end
+=======
+    f23.OUT
+>>>>>>> fb24c12ca4bc96d14bf37d555e89fa07eb709590

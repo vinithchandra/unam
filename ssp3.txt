@@ -13,12 +13,22 @@ class rad:
         self.r5.place(x=2,y=4)
 
 def display(self):
+<<<<<<< HEAD
     if s1 == 3:
+=======
+    if s1 == 55:
+>>>>>>> fb24c12ca4bc96d14bf37d555e89fa07eb709590
 
-    if s2 == 2:
+    if s2 == 22:
 
+<<<<<<< HEAD
     if s3 == 7:
 
     if s4 == 9:
+=======
+    if s3 == 33:
+
+    if s4 == 44:
+>>>>>>> fb24c12ca4bc96d14bf37d555e89fa07eb709590
         
-    l = label()
+    l = label(78)
